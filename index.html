@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    function add7(a){
+        console.log(a + 7);
+    }
+    add7(7);
+
+    function multiply(a, b){
+        console.log(a * b);
+    }
+    multiply(3,5)
+
+    function capitalize(s){
+        let initial = s.toLowerCase()
+        let input = initial[0].toUpperCase() + initial.slice(1);
+        console.log(input)
+    }   
+    capitalize("BoTh")
+
+    function lastLetter(s){
+        let input = s.slice(-1);
+        console.log(input)
+    }
+    lastLetter("abcd")
+  </script>
+</body>
+</html>
